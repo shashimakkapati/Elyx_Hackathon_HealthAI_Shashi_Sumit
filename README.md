@@ -14,8 +14,7 @@ This notebook creates a comprehensive healthcare journey dataset featuring:
 
 1. Download `elyx_hackathon_perplexity.ipynb` and open in Google Colab.  
 2. Connect your Google Drive when prompted.  
-3. In the first code cell, replace  
-with your Perplexity API key.  
+3. In the first code cell, replace 'Your_api_key' with your Perplexity API key.  
 4. Select **Runtime > Run all** and wait for completion.
 
 ## 📁 Outputs
@@ -30,7 +29,6 @@ Find these in your Google Drive and open with Google Docs.
 
 - **Member Profile**: Edit `member_profile` in Cell 4.   
 - **Dependencies**: The notebook installs `python-docx`, `langchain`, and `requests` automatically.  
-- **Drive Issues**: Rerun:
 - **API Errors**: Verify your Perplexity key and credits.
 
 ---
