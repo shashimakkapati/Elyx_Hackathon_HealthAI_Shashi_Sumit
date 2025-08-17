@@ -11,7 +11,7 @@ This project simulates an 8-month personalized healthcare journey, modeling memb
 ## Quick Start
 
 1. Open `elyx_hackathon_perplexity.ipynb` in Google Colab.  
-2. Enter your Perplexity API key when prompted.  
+2. Enter your Perplexity API key.  
 3. Run all notebook cells sequentially to:  
    - Import dependencies  
    - Generate conversation logs, summaries, and objective reviews.  
