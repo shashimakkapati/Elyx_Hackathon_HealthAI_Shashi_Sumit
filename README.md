@@ -1,25 +1,39 @@
 # Elyx Hackathon HealthAI Dataset Generator
 
-Generate realistic healthcare conversations simulating 8 months of personalized member-care team interactions, complete with decision traceability and AI-driven insights.
+Generate realistic healthcare conversations simulating 8 months of personalized member–team interactions, complete with decision traceability and AI-driven insights.
 
 ## 🎯 What This Does
 
 This notebook creates a comprehensive healthcare journey dataset featuring:
-- **Realistic conversations** between Rohan Patel (member) and Elyx's care team
-- **Multiple expert personas**: Ruby (Concierge), Warren (Physician), Rachel (Physiotherapist), Carla (Nutritionist), Advik (Data Scientist), Neel (Relationship Manager)
-- **Authentic healthcare scenarios**: supplement interactions, workout adaptations, medical test discussions, device calibration issues
-- **Professional documentation**: Conversation logs, episode summaries, and objective medical reviews
+- **Realistic conversations** between Rohan Patel and the Elyx care team
+- **Expert personas** (Concierge, Physician, Nutritionist, etc.)
+- **Healthcare scenarios** (supplement reviews, workouts, medical tests, device calibration)
+- **Professional outputs**: Conversation logs, episode summaries, and objective reviews
 
-## 🚀 Quick Setup (5 minutes)
+## 🚀 Quick Setup
 
-### Prerequisites
-- Google account with Google Drive access
-- Perplexity AI API key ([Get one here](https://www.perplexity.ai/))
+1. Download `elyx_hackathon_perplexity.ipynb` and open in Google Colab.  
+2. Connect your Google Drive when prompted.  
+3. In the first code cell, replace  
+with your Perplexity API key.  
+4. Select **Runtime > Run all** and wait for completion.
 
-### Step 1: Download and Open
-1. Download `elyx_hackathon_perplexity.ipynb`
-2. Upload to Google Colab or open directly from Google Drive
-3. Connect to Google Drive when prompted
+## 📁 Outputs
 
-### Step 2: Add Your API Key
-1. Find this line in the first code cell:
+- `convos.docx` – Full 8-month chat logs  
+- `summaries.docx` – Structured episode summaries  
+- `objective.docx` – Data-driven episode reviews  
+
+Find these in your Google Drive and open with Google Docs.
+
+## 🔧 Customization & Troubleshooting
+
+- **Member Profile**: Edit `member_profile` in Cell 4.  
+- **Episode Count**: Change `range(15)` in `generate_journey()`.  
+- **Dependencies**: The notebook installs `python-docx`, `langchain`, and `requests` automatically.  
+- **Drive Issues**: Rerun:
+- **API Errors**: Verify your Perplexity key and credits.
+
+---
+
+This single notebook workflow empowers you to generate, customize, and review a full-scale AI-powered healthcare concierge dataset on your own.```
