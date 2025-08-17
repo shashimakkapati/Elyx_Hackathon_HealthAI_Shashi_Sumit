@@ -28,8 +28,7 @@ Find these in your Google Drive and open with Google Docs.
 
 ## 🔧 Customization & Troubleshooting
 
-- **Member Profile**: Edit `member_profile` in Cell 4.  
-- **Episode Count**: Change `range(15)` in `generate_journey()`.  
+- **Member Profile**: Edit `member_profile` in Cell 4.   
 - **Dependencies**: The notebook installs `python-docx`, `langchain`, and `requests` automatically.  
 - **Drive Issues**: Rerun:
 - **API Errors**: Verify your Perplexity key and credits.
